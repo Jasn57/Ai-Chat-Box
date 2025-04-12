@@ -5,7 +5,7 @@ class ChatApp(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.geometry("600x700")
-        self.title("ChatGPT Desktop App")
+        self.title("Ai Chat Box")
 
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("blue")
